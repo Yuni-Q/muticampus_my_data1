@@ -1,0 +1,6 @@
+1.1. int[] studentNumbers = new int[30]
+1.2. double[] values = {1.2,3.3,6.7}
+2.1. new뒤에 int
+2.2. double[] rainfalls = new double[100];
+3.1. 0~4
+3.2. 에러

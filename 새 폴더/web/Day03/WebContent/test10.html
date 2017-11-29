@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>test10</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('#sample').click(function(){
+			var inputText = $('#sample').val();
+			alert('입력된 값'+inputText);
+			
+			$('#sample').val('zzzzzzzzzzzz');
+		});
+	})
+
+</script>
+</head>
+<body>
+	<input type="text" id="sample" size="20">
+	<input type="button" value="확인" id="btnOK">
+</body>
+</html>

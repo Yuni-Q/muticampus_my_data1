@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>test06_table.html</title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<td colspan=3>test</td>
+		</tr>
+		<tr>
+			<td>test</td>
+			<td>test</td>
+		</tr>
+		<tr>
+			<td>test</td>
+			<td>test</td>
+			<td>test</td>
+		</tr>
+	</table>
+	
+	<table>
+<tr>
+		<td>1</td>
+			<th>글번호</th>
+			<th>제목</th>
+			<th>작성자</th>
+			<th>조회수</th>
+		</tr>
+		
+		<tr>
+		<td>2</td>
+			<th>글번호</th>
+			<th>제목</th>
+			<th>작성자</th>
+			<th>조회수</th>
+		</tr>
+		
+		<tr>
+		<td>3</td>
+			<th>글번호</th>
+			<th>제목</th>
+			<th>작성자</th>
+			<th>조회수</th>
+		</tr>		
+
+	
+	
+	</table>
+</body>
+</html>

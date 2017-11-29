@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+
+
+
+var randNum;
+	function randNum2(){
+		randNum = 1+Math.abs(Math.floor(Math.random()*10));
+		
+	}
+	
+	function checkNum(){
+		var inputNum = document.getElementById('userNum');
+		
+		var num1 = randNum;
+		var num2 = inputNum.value;
+		
+		if(num1 == num2){
+			h1.innerHTML = "맞췄습니다";
+		}else if(num1 > num2){
+			h1.innerHTML = "숫자가 작습니다!!";
+		}else{
+			h1.innerHTML = "숫자가 큽니다!!";
+		}
+		
+	}
+	
+</script>
+</head>
+<body>
+	<button onclick="randNum2()">난수 추첨</button>
+	<h1 id="target">숫자를 입력하시오 !!</h1>
+	<input type="text" id="userNum" placeholder="input your Num">
+	<button onclick="checkNum()">확인</button>
+</body>
+</html>

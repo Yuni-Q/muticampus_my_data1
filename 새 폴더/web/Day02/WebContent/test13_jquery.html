@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>test13_Jquery_cdn.html</title>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+/* 	window.onload = function(){
+		var btn = document.getElementById("btn");
+		btn.onclick = function(){
+			alert("눌렀습니다.! by raw javaScript...");
+		}
+	}
+	////////////////////////////////////////////////////////////////////
+	*/
+	var count=0;
+	$(function(){
+		$('#btn').click(function(){
+			$('#btn').text('눌렀네요!:'+count);
+			count++;
+		})
+	})
+	
+</script>
+</head>
+<body>
+	<button id="btn">놀러보세요~</button>
+</body>
+</html>

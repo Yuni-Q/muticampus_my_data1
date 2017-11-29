@@ -1,0 +1,10 @@
+1. NumberBox num = new NumberBox();
+	num.invalue=10;
+	num.fvalue=1.2345;
+2. year, month, day, SetDate, PrintDate
+3. Rectangle myRect = new Rectangle();
+4.1. 생각이현실이 된다
+4.2. 문자열의 길이는7
+4.3. abcdefg
+4.4. 2 + 3 = 5
+4.5. 2 + 3 = 23

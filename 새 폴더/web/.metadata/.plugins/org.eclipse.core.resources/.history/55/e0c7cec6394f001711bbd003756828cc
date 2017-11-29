@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+				<td>이름</td>
+				<td>점수</td>
+			</tr>
+			<tr>
+				<td>양유진</td>
+				<td>
+					<ul>
+						<li> 수학 100 </li>
+						<li> 국어 100 </li>
+						<li> 과학 100 </li>				
+					
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>test</td>
+				<td>test</td>
+				<td>test</td>
+			</tr>
+	</table>
+</body>
+</html>

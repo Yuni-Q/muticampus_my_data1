@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>test.html</title>
+<script type="text/javascript">
+	alert('이 경고창은 body가 그려지기 전에 팝업:'+n);
+	
+	window.onload = function(){
+		// 이 function은 아래의 body가 화면에 다 그려진 후 실행됨.
+		var n = 100;
+		alert('이 경고창은 body가 그려지기 전에 팝업:'+n);
+	}
+
+</script>
+</head>
+<body>
+	<h1>이 내용이 나오는 시점 ?</h1>
+</body>
+</html>

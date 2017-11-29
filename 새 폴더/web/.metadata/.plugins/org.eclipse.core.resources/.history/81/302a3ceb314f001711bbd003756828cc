@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3 style="color:red;font-style:italic;background-color:yellow">스타일 적용</h3>
+	<h2>스타일 적용</h2>
+	<h2>스타일 적용</h2>
+	<h1>스타일 적용</h1>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>test01</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+
+	//자바스크립트버전
+	window.onload = function(){
+		
+		var h1_arr = document.getElementsByTagName("h1");
+		for(var i=0;i<3;i++){
+			
+			h1_arr[i].style.backgroundColor="ORANGE";
+						
+		}
+		
+	}
+////////////////////////////////////////////////////////
+
+	//jQuery버전
+	$(function(){
+		
+		$('h1').css('color','blue');
+		
+	})
+	
+</script>
+</head>
+<body>
+
+	<h1>java</h1>
+	<h1>jsp</h1>
+	<h1>jQuery</h1>
+
+</body>
+</html>

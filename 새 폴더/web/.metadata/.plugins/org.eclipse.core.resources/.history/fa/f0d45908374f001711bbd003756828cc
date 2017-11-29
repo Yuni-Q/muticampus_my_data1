@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>test10_selector.html</title>
+<style type="text/css">
+	*{
+		background-color:yellow;
+	}
+
+</style>
+</head>
+<body>
+	<h1>css 선택자 공부</h1>
+	<h2>css 선택자 공부</h2>
+	<h3>css 선택자 공부</h3>
+	<h4>css 선택자 공부</h4>
+	<h5>css 선택자 공부</h5>
+	<h6>css 선택자 공부</h6>
+	
+	
+</body>
+</html>

@@ -1,0 +1,56 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+		<title>test03_get.jsp</title>
+		<script type="text/javascript">
+
+			$(function(){
+				$('#checkBtn').click(function(){
+					var result="취미:";
+					var checkedList = $(':checkbox:checked');
+					
+					for(var i=0; i<checkedList.length; i++){
+						var checkValue = checkedList[i].value;
+						result += checkValue;
+					}
+					
+					var radioList = $(':radio:checked');
+					result += "<br>성별: "+ radioList[0].value;
+					$('#target').html(result);
+				});
+			})
+		
+		</script>
+	</head>
+	<body>
+		<%
+			String id = request.getParameter("userId");
+			String pw = request.getParameter("userPw");
+		%>
+		<h1>반갑습니다.</h1>	
+		당신의 아이디 : <%=id %><br>
+		당신의 패스워드 : <%=pw %>
+
+		<%
+			if(id.equals("admin") && pw.equals("1234")){
+				//관리자로 로그인
+		%>
+			<h2>관리자로 로그인 되셨습니다.</h2>
+		<% 
+			}else{
+			//로그인 실패
+			
+		%>
+			<h2>로그인 실패입니다. 아이디와 비밀번호를 확인후 다시 시도해주세요.</h2>
+			<a href="test03_form.jsp">[폼으로 돌아가기]</a>
+		<%
+		
+		}
+		%>
+					
+				
+	</body>
+</html>

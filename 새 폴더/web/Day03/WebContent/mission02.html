@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>mission</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">	
+	$(function(){
+		$('#btn').click(function(){
+			var pw = $('#userPw').val();
+			var	pw2 = $('#userPw2').val();
+			
+			if(pw==pw2){
+				$('div').html('비밀번호 일치');
+			}else{
+				$('div').html('비밀번호 불일치');
+			}
+			
+		});
+	})
+
+</script>
+</head>
+<body>
+	
+	<h1>click 이벤트</h1>
+	<table border="1">
+		<tr>
+			<td>암호:</td>
+			<td>
+				<input type="password" id="userPw" placeholder="input your password"><br>
+			</td>				
+		</tr>
+		<tr>
+			<td>암호 확인:</td>
+			<td>
+	 			<input type="password" id="userPw2" placeholder="input your password again"><br>
+			</td>	 			
+		<tr>
+			<td colspan=2>
+				<button id=btn>확인</button>
+			</td>				
+		</tr>			
+	</table>
+	<div></div>
+</body>
+</html>

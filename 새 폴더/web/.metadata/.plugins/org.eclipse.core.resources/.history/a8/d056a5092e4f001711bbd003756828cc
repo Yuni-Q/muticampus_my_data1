@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>test08_span_div.html</title>
+</head>
+<body>
+span 태그나 div 태그는 화면상에 무언가를 표현하는 택는 아닙니다.<br>
+문서의 틀을 잡을 때 특정 부분을 선택해서 스타일을 적용하거나,<br>
+데이터(데이터 베이스 등에서 꺼내온)를 끼워넣을 때 많이 사용합니다.<br>
+<hr>
+동해물과 <span style=""border: 3px solid red;">백두산이</span> 마르고 닳도록 <div>하느님이</div>보우하사 우리나라 만세
+</body>
+</html>

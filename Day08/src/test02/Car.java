@@ -1,0 +1,34 @@
+
+package test02;
+
+public class Car {
+
+	private int speed = 100;;
+	private String color = "WHITE";
+	private String model = "SONATA";
+
+	///////////////////////////////////////////////////////////////////////////////
+	void speedUp() {
+		speed += 10;
+	} // speedUp end
+
+	void speedDown() {
+		speed -= 10;
+	} // speedDown end
+		///////////////////////////////////////////////////////////////////////////////
+
+	public void setColor(String c) {
+		color = c;
+	} // setColor end
+
+	public String getColor() {
+		return color;
+	} // getColor end
+		//////////////////////////////////////////////////////////////////////////////////
+
+	public String toString() {
+		return "속도:" + speed + "생상:" + color + "모델:" + model;
+	} // toString end
+		/////////////////////////////////////////////////////////////////////////////////
+
+}

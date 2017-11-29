@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>test07_iframe.html</title>
+</head>
+<body>
+	<audio src="Kalimba.mp3"
+		controls="controls" autoplay="autoplay"></audio>
+	<video src="https://www.youtube.com/watch?v=e_TMtz0_lkc"
+		width="200" height="200" controls="controls"></video> 
+	
+	<hr>
+	<iframe src="http://m.naver.com" width="200" height="300">
+	</iframe>
+	<iframe src="http://m.daum.net/" width="200" height="300">
+	</iframe>
+	<hr/>
+
+
+
+</body>
+</html>
